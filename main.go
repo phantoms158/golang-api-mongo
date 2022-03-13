@@ -16,5 +16,5 @@ func main() {
 	//routes
 	routes.UserRoute(router) //add this
 
-	router.Run(":8080")
+	router.Run(":80")
 }
